@@ -7,4 +7,4 @@ This project uses:
 - [Prettier](https://prettier.io/) and [ESLint](https://eslint.org/) with various plugins to handle code formatting.
 - [Supabase](https://supabase.com/) as the database and authentication provider.
 - [Jest](https://jestjs.io/) as the testing framework.
-- [Nodemon](https://nodemon.io/) is used for automatic server restarts during development.
+- [Nodemon](https://nodemon.io/) for automatic server restarts during development.
