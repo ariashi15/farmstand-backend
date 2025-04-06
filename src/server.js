@@ -14,6 +14,7 @@ const corsOptions = {
     const allowedOrigins = [
       process.env.FRONTEND_URL,
       process.env.FRONTEND_URL_DEV,
+      `${process.env.FRONTEND_URL}/`,
     ];
 
     if (allowedOrigins.includes(origin) || !origin) {
