@@ -5,6 +5,7 @@ require('dotenv').config();
 
 const authRoutes = require('./routes/authRoutes');
 const farmRoutes = require('./routes/farmRoutes');
+const inventoryRoutes = require('./routes/inventoryRoutes');
 
 const app = express();
 
@@ -46,6 +47,7 @@ app.use((req, res, next) => {
 
 app.use('/auth', authRoutes);
 app.use('/farms', farmRoutes);
+app.use('/inventory', inventoryRoutes);
 
 app.get('/health', (req, res) => {
   res.status(200).json({ status: 'ok' });
