@@ -10,7 +10,7 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "dest": "src/server.js"
+      "destination": "src/server.js"
     }
   ]
 }
