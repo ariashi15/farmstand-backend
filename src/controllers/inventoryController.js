@@ -14,6 +14,7 @@ const inventoryController = {
                     price,
                     unit,
                     quantity,
+                    description,
                     farms ( farm_id, name, pickup, delivery )
                     `);
 
