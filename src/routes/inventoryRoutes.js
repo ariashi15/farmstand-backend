@@ -4,5 +4,6 @@ const inventoryController = require('../controllers/inventoryController');
 const router = express.Router();
 
 router.get('/allfarms', inventoryController.getAllFarmsInventory);
+router.get('/:productid', inventoryController.getItemByID);
 
 module.exports = router;
